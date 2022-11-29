@@ -5,9 +5,94 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+  font-family: 'Inter', serif;
+  background-color: #282D35;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  background-color: rgba(33, 34, 42, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logoDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.logo{
+  height: 29px;
+  margin: 0 3px 0 30px;
+}
+
+.textLogo{
+  size: 23px;
+  font-weight: bold;
+  color: rgba(97, 218, 251, 1);
+  margin: auto;
+
+}
+
+.projectName{
+  size: 16px;
+  color: white;
+  margin: 16px 38px 18px 0;
+
+}
+
+.mainContent{
+  color: white;
+  text-align: left;
+  margin-left: 27px;
+  padding: 57px 27px; 
+  background-image: url("./Images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+
+
+}
+
+.list > li {
+  padding-block: 10px;
+  size: 16px;
+  font-weight: 400;
+}
+
+.list{
+  margin-top: 46px;
+}
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: rgba(97, 218, 251, 1);
+}
+
+.listLogoDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bigLogo{
+ display: block;
+ float: right;
+ padding: auto;
+  background-size: cover;
+  overflow: hidden;
+clear: both;
+
 }
